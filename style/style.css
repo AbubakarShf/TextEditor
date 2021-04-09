@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+* {
+  padding: 0%;
+  margin: 0%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body,
+.input-container,
+h1 {
+  background-color: #ffffff;
+  font-family: 'Lato', sans-serif !important;
+}
+
+header {
+  -webkit-box-shadow: 0px 1px 5px #ededed;
+          box-shadow: 0px 1px 5px #ededed;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header a {
+  text-decoration: none;
+  color: #222222;
+  font-size: 3.6em;
+  font-style: italic;
+}
+
+header .developer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-size: 25px;
+  color: #222222;
+}
+
+header .developer p {
+  font-size: 18px;
+  margin-right: -300px;
+  padding-right: -300px;
+}
+
+header .developer a {
+  text-decoration: none;
+  color: #222222;
+}
+
+header .developer a :hover {
+  cursor: pointer;
+  border-bottom: #222222 solid 1px;
+}
+
+h1 {
+  font-size: 60px;
+  color: #11a0cc;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.functionality {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 3%;
+}
+
+.functionality .container > button {
+  padding: 10px;
+  font-size: 20px;
+  border: none;
+  border-radius: 3px;
+  outline: none;
+  cursor: pointer;
+  margin: 0px 7px 0px 7px;
+}
+
+.functionality .container > button :focus {
+  outline: none;
+}
+
+.functionality .container button:active {
+  background-color: black;
+  color: #ffffff;
+}
+
+.input-container {
+  margin-left: 90px;
+  margin-top: 20px;
+  -webkit-box-shadow: 0px 1px 6px #ededed;
+          box-shadow: 0px 1px 6px #ededed;
+  font-size: 25px !important;
+  overflow: scroll;
+  padding: 20px;
+  width: 90%;
+  height: 550px !important;
+  border: solid 1px #ffffff;
+  outline: none;
+  font-family: 'Lato', sans-serif;
+}
+
+.Centeractive {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.Leftactive {
+  left: 0;
+}
+
+.Rightactive {
+  right: 0;
+}
+/*# sourceMappingURL=style.css.map */
